@@ -1,5 +1,9 @@
-Les fichiers de l'application Drupal complète, avec les caches désactivés (à voir dans le fichier sites/default/settings.local.php )
-pour un développement plus rapide.
+Ce repository contient les fichiers de l'application Drupal complète.
+Pour le développement il est conseillé d'utiliser WAMP.
+
+Les caches sont désactivés (à voir dans le fichier sites/default/settings.local.php ).
+Cela permet un développement plus rapide car certaines manipulations nécessitent de supprimer le cache,
+ce qui est fait automatiquement grâce à cette manipulation.
 
 
 Le module est accessible dans le dossier "module/custom/distant_searcher"
