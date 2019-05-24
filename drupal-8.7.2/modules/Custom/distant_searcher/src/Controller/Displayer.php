@@ -7,15 +7,11 @@ use Drupal\search_api\Plugin\DataType\Html;
 
 function display($type, $results )
 {
+    if ($type === "experience") { //si la donnée est une expérience
 
-    if ($type === "experience") {
-
-        foreach ($results as $key => $value) {
+        foreach ($results as $key => $value) {  //pour chaque expérience
             drupal_set_message($value['ville'] . '<br>' . $value['latitude'] . '<br>' . html_entity_decode($value['body']));
-
-            // etc
         }
-        //drupal_set_message($results);
     }
 
 }
