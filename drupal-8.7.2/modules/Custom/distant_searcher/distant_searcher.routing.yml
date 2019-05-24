@@ -1,0 +1,7 @@
+distant_searcher.content:
+  path: '/distant'
+  defaults:
+    _form: '\Drupal\distant_searcher\Controller\SimpleForm'
+    _title: 'Recherche'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,6 @@
+distant_searcher.admin:
+  title: 'Distant Searcher Setting'
+  description: 'setting page link that redirect to the module for the moment (need to create a real setting page)'
+  parent: system.admin_config_development
+  route_name: distant_searcher.content
+  weight: 100
