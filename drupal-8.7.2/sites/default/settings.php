@@ -280,7 +280,7 @@ $config_directories = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = 'V5EGu1oHN5NAbVrfFU0W-UAJ1MQk39jBm_Ci6IuX-oltp_NHQUY3wBzWbimtXBJmt_V5Bi0K5w';
+$settings['hash_salt'] = 'nKLfWa9ju6MISyT1PBpCXOdmZCWU5Pcog4LyxQVXsN7URceQ9LXbrPDhSzwE5PzyGHQzr3ko7w';
 
 /**
  * Deployment identifier.
@@ -778,13 +778,13 @@ $settings['entity_update_backup'] = TRUE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'loulabodrupaldb',
-  'username' => 'LoulaboDrupal',
-  'password' => 'LoulaboPass',
+  'database' => 'drupal_final',
+  'username' => 'root',
+  'password' => '',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
-$config_directories['sync'] = 'sites/default/files/config_SvnIaLft49iGl1WZmX_2_mz2fAIanTETukeirUrJ7QkbPDu5bOnmidqFjzgKVFqiOejbFs4z6g/sync';
+$config_directories['sync'] = 'sites/default/files/config_Cxi3tSjjV6dJHcR2LUiALTIy6OFyY2QtRLdiTPQDJBUYL2I5BJJVlKscQdLq5vUd4mXDvWD2zA/sync';

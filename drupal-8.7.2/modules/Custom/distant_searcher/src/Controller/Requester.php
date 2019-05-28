@@ -27,7 +27,7 @@ function requester($data)
     //on récupère les données
     $response = file_get_contents($url);
     $parsed_json = json_decode($response, true);
-    $parsed_json = $parsed_json['records'];
+    $parsed_json = $parsed_json['ville'];
 
     //ajoute les données récupérées dans le tableau qui rassemblera les données de toutes les sources
     foreach ($parsed_json as $key => $value) {
